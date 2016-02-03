@@ -9,12 +9,14 @@
 	</head>
 	
 	<style type="text/css">
-		body {    background:#eee;    
-					font-family: Helvetica, Arial, sans-serif;  
+		
+		body {    
+			background:#eee;    
+			font-family: Helvetica, Arial, sans-serif; 
 		}   
 		h2 {    font-size:22px;    
 				font-weight:300;    
-				color:#aaa;   
+				color:#aaa;
 		}
 		.button {
 			background:#333;   
@@ -26,6 +28,21 @@
 			-khtml-border-radius: 20px;   
 			border-radius: 20px;   
 			text-align:center;
+		}
+		.box {
+			background: blue;
+			width: 100px;
+			height: 100px;	
+			margin: 20px;
+		}
+		.boxTwo {
+			background: red;
+			width: 100px;
+			height: 100px;
+			margin: 20px;
+		}
+		.boxSwag{
+			display: flex;
 		}
 	</style>
 	
@@ -48,6 +65,10 @@
 			<source src="gizmo.mp4" type="video/mp4" />
 		</video>
 		<h3>Two boxes side by side</h3>
+		<div class = "boxSwag">
+			<div class = "box"></div>
+			<div class = "boxTwo"></div>
+		</div>
 
 	</body>
 </html>
